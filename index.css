@@ -1,0 +1,39 @@
+body{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-1{
+    /* font: italic small-caps bold 12px/1.5 Georgia, serif; */
+    /* font: italic normal 700 15px/2 Georgia , serif; */
+}
+
+.text-1{
+    font: 16px arial;
+}
+/* .text-2{
+    font-style: italic;
+    font-variant: inherit;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 5;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.text-2{
+    /* Bạn cần cung cấp ít nhất font-size và font-family để viết tắt hoạt động, nếu không nó sẽ chỉ là lỗi cú pháp và không làm gì cả. */
+    /* các giá trị còn lại đều về gtrị normal */
+    /* font: 26px  Georgia , serif; */
+    font: italic small-caps bold;
+}
+
+
+.box{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    border: 10px solid #CCC;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+}
